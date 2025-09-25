@@ -8,7 +8,7 @@ export default function page() {
           <h2 className="text-4xl font-bold">
             Contact <span className="text-orange-500">Me</span>
           </h2>
-          <p className="text-lg mt-2 text-gray-400">Let's get in touch!</p>
+          <p className="text-lg mt-2 text-gray-400">Let&apos;s get in touch!</p>
 
           <form className="mt-10 space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
