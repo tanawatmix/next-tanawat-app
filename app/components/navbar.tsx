@@ -16,7 +16,7 @@ const navItems = [
   { icon: pic6, href: "/spec", label: "Portfolio" },
   { icon: pic, href: "/projects", label: "Contact" },
   { icon: pic3, href: "/skills", label: "Skills" },
-  { icon: pic5, href: "/extra2", label: "Extra2" },
+  { icon: pic5, href: "contactme", label: "Extra2" },
 ];
 
 const Navbar = () => {

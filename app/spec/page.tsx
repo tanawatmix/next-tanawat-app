@@ -5,7 +5,7 @@ import pen from "../images/iconoir_design-nib.png";
 
 export default function specUI() {
   return (
-    <div className="mt-18 ml-5">
+    <div className="mt-15 ml-5">
       <h1 className="font-bold text-[35px]">
         My <span className="text-orange-500">Specializations</span>
       </h1>

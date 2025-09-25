@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pro from "../images/TTT.jpg";
+import pro from "../images/me.jpg";
 import gg from "../images/gg.png";
 import ig from "../images/ig.png";
 import fb from "../images/fb.png";
@@ -17,7 +17,7 @@ export default function ProfileCard() {
         alt="Profile"
         width={150}
         height={150}
-        className="mx-auto rounded-2xl h-70 w-100 mt-2"
+        className="mx-auto rounded-2xl h-70 w-100 mt-2 object-cover"
       />
 
       <p className="mt-2 text-[18px] text-white">STU ID: 6552410002</p>
@@ -63,9 +63,12 @@ export default function ProfileCard() {
       </div>
 
       {/* Hire Me Button */}
-      <button className="mt-10 w-65 py-2 text-xl rounded-lg bg-orange-500 text-black hover:scale-110 hover:bg-orange-400 transition duration-150">
+      <a
+        href="/contactme"
+        className="mt-10 inline-block w-65 py-2 text-xl rounded-lg bg-orange-500 text-black hover:scale-110 hover:bg-orange-400 transition duration-150"
+      >
         HIRE ME !
-      </button>
+      </a>
     </div>
   );
 }

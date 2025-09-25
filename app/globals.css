@@ -17,3 +17,8 @@
 .my-custom-swiper-container .swiper-pagination-bullet-active {
   background-color: #f97316; /* สีส้มสำหรับจุดที่ถูกเลือก */
 }
+
+input::placeholder {
+  color: #f97316; /* สีส้ม */
+  opacity: 1; /* เพื่อให้มั่นใจว่าสีจะแสดงผล */
+}
